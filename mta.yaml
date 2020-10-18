@@ -32,6 +32,5 @@ resources:
     type: org.cloudfoundry.existing-service
     parameters:
       service: hana
-      service-plan: hdi-shared
     properties:
       hdi-service-name: '${service-name}'
