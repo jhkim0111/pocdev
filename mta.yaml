@@ -51,7 +51,7 @@ resources:
    type: org.cloudfoundry.existing-service
    parameters:
      service: pocdev-db  # or 'hanatrial' on trial landscapes
-     service-plan: hdi-shared
+     #service-plan: hdi-shared
    properties:
      hdi-service-name: ${service-name}
 
