@@ -48,9 +48,9 @@ resources:
 # ------------------------------------------------------------
  - name: pocdev-db
 # ------------------------------------------------------------
-   type: com.sap.xs.hdi-container
+   type: org.cloudfoundry.existing-service
    parameters:
-     service: hana  # or 'hanatrial' on trial landscapes
+     service: pocdev-db  # or 'hanatrial' on trial landscapes
      service-plan: hdi-shared
    properties:
      hdi-service-name: ${service-name}
