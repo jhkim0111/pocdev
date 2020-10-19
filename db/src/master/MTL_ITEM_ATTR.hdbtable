@@ -1,0 +1,6 @@
+column table "pocdev.db.src.master::MTL_ITEM_ATTR"(
+	ITEM_CD nchar(20),
+	ITEM_CATEG nchar(30),
+	ITEM_LEVEL nchar(10),
+	primary key(ITEM_CD)
+)

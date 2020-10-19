@@ -1,0 +1,5 @@
+column table "pocdev.db.src.master::MTL_EMP_SUPPLIER_ATTR"(
+	EMP_NO nchar(20),
+	SUPPLIER nchar(20),
+	primary key(EMP_NO, SUPPLIER)
+)

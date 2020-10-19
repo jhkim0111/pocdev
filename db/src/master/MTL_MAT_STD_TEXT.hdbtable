@@ -1,0 +1,8 @@
+column table "pocdev.db.src.master::MTL_MAT_STD_TEXT"(
+	MAT_STD nchar(20),
+	LANGU nchar(1),
+	MAT_STD_DESC_SH nchar(20),
+	MAT_STD_DESC_MD nchar(40),
+	MAT_STD_DESC_LG nchar(60),
+	primary key(MAT_STD, LANGU)
+)

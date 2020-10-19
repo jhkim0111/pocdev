@@ -1,0 +1,8 @@
+column table "pocdev.db.src.master::MTL_ITEM_CATEG_TEXT"(
+	ITEM_CATEG nchar(30),
+	LANGU nchar(1),
+	ITEM_CATEG_SH nchar(20),
+	ITEM_CATEG_MD nchar(40),
+	ITEM_CATEG_LG nchar(60),
+	primary key(ITEM_CATEG, LANGU)
+)

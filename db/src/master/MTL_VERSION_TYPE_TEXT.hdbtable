@@ -1,0 +1,8 @@
+column table "pocdev.db.src.master::MTL_VERSION_TYPE_TEXT"(
+	VERSION_TYPE nchar(20),
+	LANGU nchar(1),
+	VERSION_TYPE_SH nchar(20),
+	VERSION_TYPE_MD nchar(40),
+	VERSION_TYPE_LG nchar(60),
+	primary key(VERSION_TYPE, LANGU)
+)

@@ -1,0 +1,5 @@
+column table "pocdev.db.src.master::MTL_DEPARTMENT_ATTR"(
+	DEPARTMENT nchar(20),
+	LEAD_DEPT nchar(20),
+	primary key(DEPARTMENT)
+)

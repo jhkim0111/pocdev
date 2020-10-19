@@ -1,0 +1,8 @@
+column table "pocdev.db.src.master::MTL_VENDOR_L2_TEXT"(
+	VENDOR_LV2_CODE nchar(20),
+	LANGU nchar(1),
+	VENDOR_LV2_DESC_SH nchar(20),
+	VENDOR_LV2_DESC_MD nchar(40),
+	VENDOR_LV2_DESC_LG nchar(60),
+	primary key(VENDOR_LV2_CODE, LANGU)
+)

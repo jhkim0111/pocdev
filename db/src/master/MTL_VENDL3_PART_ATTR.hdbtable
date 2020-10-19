@@ -1,0 +1,5 @@
+column table "pocdev.db.src.master::MTL_VENDL3_PART_ATTR"(
+	VENDOR_LV3_CODE nchar(20),
+	PART_NO nchar(20),
+	primary key(VENDOR_LV3_CODE, PART_NO)
+)

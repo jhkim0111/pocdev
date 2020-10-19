@@ -1,0 +1,10 @@
+column table "pocdev.db.src.master::MTL_PART_UTPC_ATTR"(
+	PART_NO nchar(20),
+	SITE_CD nchar(100),
+	KURST nchar(4),
+	FCURR nchar(5),
+	TCURR nchar(5),
+	GDATU date,
+	UKURS dec(9,5),
+	primary key(PART_NO, SITE_CD, KURST, FCURR, TCURR, UKURS)
+)

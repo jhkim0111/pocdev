@@ -1,0 +1,14 @@
+column table "pocdev.db.src.transaction::TTL_COST_TABLE"(
+	PART_NO nvarchar(20),
+	ITEM_SEQ_NO nvarchar(10),
+	CLASS_COST nvarchar(20),
+	EXPLAIN nvarchar(1000),
+	SUPP_RETURN_CHK nvarchar(1),
+	UNIT nvarchar(3),
+	ACCEPT_VALUE decimal(17,2),
+	PURC_UNIT_PRICE decimal(17,2),
+	CURR_PURC_UNIT_PRICE nvarchar(3),
+	SUPP_UNIT_PRICE decimal(17,2),
+	CURR_SUPP_UNIT_PRICE nvarchar(3),
+	primary key(PART_NO, ITEM_SEQ_NO, CLASS_COST)
+)
