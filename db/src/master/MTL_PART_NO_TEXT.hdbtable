@@ -1,0 +1,8 @@
+column table "pocdev.db.src.master::MTL_PART_NO_TEXT"(
+	PART_NO nchar(20),
+	LANGU nchar(1),
+	PART_NO_SH nchar(20),
+	PART_NO_MD nchar(40),
+	PART_NO_LG nchar(60),
+	primary key(PART_NO, LANGU)
+)

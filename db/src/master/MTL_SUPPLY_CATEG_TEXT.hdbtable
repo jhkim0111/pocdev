@@ -1,0 +1,8 @@
+column table "pocdev.db.src.master::MTL_SUPPLY_CATEG_TEXT"(
+	SUPPLY_CATEG nchar(30),
+	LANGU nchar(1),
+	SUPPLY_CATEG_SH nchar(20),
+	SUPPLY_CATEG_MD nchar(40),
+	SUPPLY_CATEG_LG nchar(60),
+	primary key(SUPPLY_CATEG, LANGU)
+)

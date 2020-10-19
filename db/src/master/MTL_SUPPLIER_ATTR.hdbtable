@@ -1,0 +1,5 @@
+column table "pocdev.db.src.master::MTL_SUPPLIER_ATTR"(
+	SUPPLIER nchar(20),
+	SUPPLY_CATEG nchar(10),
+	primary key(SUPPLIER)
+)

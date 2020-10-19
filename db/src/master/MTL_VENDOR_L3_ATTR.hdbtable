@@ -1,0 +1,11 @@
+column table "pocdev.db.src.master::MTL_VENDOR_L3_ATTR"(
+	VENDOR_LV3_CODE nchar(20),
+	PRODUCT_PROP nchar(20),
+	LEAD_DEPT nchar(20),
+	ASSESS_YN nchar(1),
+	MAT_STD nchar(20),
+	IND_STD nchar(20),
+	COST_MANAGE_YN nchar(1),
+	EXPLAIN nchar(1000),
+	primary key(VENDOR_LV3_CODE)
+)

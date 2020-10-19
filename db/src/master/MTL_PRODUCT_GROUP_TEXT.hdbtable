@@ -1,0 +1,8 @@
+column table "pocdev.db.src.master::MTL_PRODUCT_GROUP_TEXT"(
+	PRODUCT_GROUP nchar(20),
+	LANGU nchar(1),
+	PRODUCT_GROUP_SH nchar(20),
+	PRODUCT_GROUP_MD nchar(40),
+	PRODUCT_GROUP_LG nchar(60),
+	primary key(PRODUCT_GROUP, LANGU)
+)

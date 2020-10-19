@@ -1,0 +1,6 @@
+column table "pocdev.db.src.master::MTL_EMPLOYEE_ATTR"(
+	EMP_NO nchar(20),
+	DEPARTMENT nchar(20),
+	POSITION nchar(20),
+	primary key(EMP_NO)
+)

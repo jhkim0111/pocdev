@@ -1,0 +1,8 @@
+column table "pocdev.db.src.master::MTL_VENDOR_LEVEL_HIER"(
+	NODEID nchar(20),
+	HIER_LEVEL nchar(20),
+	NODENAME nchar(500),
+	PARNT_NODEID nchar(20),
+	VENDOR_LV3_CODE nchar(20),
+	primary key(NODEID, HIER_LEVEL)
+)
