@@ -1,5 +1,5 @@
 column table "pocdev.db.src.master::MTL_SITE_CD_TEXT"(
-	SITE_CD nchar(20),
+	SITE_CD nchar(100),
 	LANGU nchar(1),
 	SITE_CD_SH nchar(20),
 	SITE_CD_MD nchar(40),
