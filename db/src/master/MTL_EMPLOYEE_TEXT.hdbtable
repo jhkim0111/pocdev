@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_EMPLOYEE_TEXT"(
+column table MTL_EMPLOYEE_TEXT(
 	EMP_NO nchar(20),
 	LANGU nchar(1),
 	EMP_NO_SH nchar(20),

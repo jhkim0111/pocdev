@@ -1,4 +1,4 @@
-column table "pocdev.db.src.transaction::TTL_COST_TABLE"(
+column table TTL_COST_TABLE(
 	PART_NO nvarchar(20),
 	ITEM_SEQ_NO nvarchar(10),
 	CLASS_COST nvarchar(20),

@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_IND_STD_TEXT"(
+column table MTL_IND_STD_TEXT(
 	IND_STD nchar(20),
 	LANGU nchar(1),
 	IND_STD_DESC_SH nchar(20),

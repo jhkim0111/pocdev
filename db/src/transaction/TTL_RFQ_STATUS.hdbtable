@@ -1,4 +1,4 @@
-column table "pocdev.db.src.transaction::TTL_RFQ_STATUS"(
+column table TTL_RFQ_STATUS(
 	PART_NO nvarchar(20),
 	SITE_CD nchar(100),
 	STATUS nvarchar(20),

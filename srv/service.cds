@@ -39,7 +39,7 @@ using TTL_COST_TABLE from '../db/schema';
 using TTL_MATERIAL_COST_DETL from '../db/schema';
 using TTL_RFQ_STATUS from '../db/schema';
 
-service MasterDataTable { //@(path : '/MasterDataTable') 
+service MasterData { //@(path : '/MasterData') 
 
     entity Text_CoprCode           as projection on MTL_CORP_CD_TEXT;
     entity Attr_Department         as projection on MTL_DEPARTMENT_ATTR;
@@ -79,7 +79,7 @@ service MasterDataTable { //@(path : '/MasterDataTable')
 
 };
 
-service TransactionDataTable { //@(path : '/TransactionDataTable') 
+service TransactionData { //@(path : '/TransactionData') 
 
     entity Tx_CostTable          as projection on TTL_COST_TABLE;
     entity Tx_MaterialCostDetail as projection on TTL_MATERIAL_COST_DETL;

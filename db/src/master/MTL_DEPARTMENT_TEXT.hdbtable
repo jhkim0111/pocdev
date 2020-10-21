@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_DEPARTMENT_TEXT"(
+column table MTL_DEPARTMENT_TEXT(
 	DEPARTMENT nchar(20),
 	LANGU nchar(1),
 	DEPARTMENT_SH nchar(20),

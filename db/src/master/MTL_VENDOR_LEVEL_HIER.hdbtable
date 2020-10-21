@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_VENDOR_LEVEL_HIER"(
+column table MTL_VENDOR_LEVEL_HIER(
 	NODEID nchar(20),
 	HIER_LEVEL nchar(20),
 	NODENAME nchar(500),

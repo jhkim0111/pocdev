@@ -1,4 +1,4 @@
-column table "pocdev.db.src.transaction::TTL_MATERIAL_COST_DETL"(
+column table TTL_MATERIAL_COST_DETL(
 	PART_NO nvarchar(20),
 	ITEM_SEQ_NO nvarchar(10),
 	CAL_UNIT_PRICE_CHK nvarchar(1),
