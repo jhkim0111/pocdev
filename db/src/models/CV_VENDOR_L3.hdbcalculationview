@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::CV_VENDOR_L3" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="CV_VENDOR_L3"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="MTL_VENDOR_L3_ATTR">
+    <resourceUri>MTL_VENDOR_L3_ATTR</resourceUri>
+  </DataSource>
+  <DataSource id="MTL_VENDOR_L3_TEXT">
+    <resourceUri>MTL_VENDOR_L3_TEXT</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1" cardinality="CN_1" joinType="inner">
+    <viewAttributes>
+      <viewAttribute id="VENDOR_LV3_CODE"/>
+      <viewAttribute id="LANGU"/>
+      <viewAttribute id="VENDOR_LV3_DESC_SH"/>
+      <viewAttribute id="VENDOR_LV3_DESC_MD"/>
+      <viewAttribute id="VENDOR_LV3_DESC_LG"/>
+      <viewAttribute id="PRODUCT_PROP"/>
+      <viewAttribute id="LEAD_DEPT"/>
+      <viewAttribute id="ASSESS_YN"/>
+      <viewAttribute id="MAT_STD"/>
+      <viewAttribute id="IND_STD"/>
+      <viewAttribute id="COST_MANAGE_YN"/>
+      <viewAttribute id="EXPLAIN"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="MTL_VENDOR_L3_ATTR">
+      <mapping xsi:type="Calculation:AttributeMapping" target="VENDOR_LV3_CODE" source="VENDOR_LV3_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="PRODUCT_PROP" source="PRODUCT_PROP"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LEAD_DEPT" source="LEAD_DEPT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ASSESS_YN" source="ASSESS_YN"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MAT_STD" source="MAT_STD"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="IND_STD" source="IND_STD"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="COST_MANAGE_YN" source="COST_MANAGE_YN"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="EXPLAIN" source="EXPLAIN"/>
+    </input>
+    <input node="MTL_VENDOR_L3_TEXT">
+      <mapping xsi:type="Calculation:AttributeMapping" target="LANGU" source="LANGU"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VENDOR_LV3_DESC_SH" source="VENDOR_LV3_DESC_SH"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VENDOR_LV3_DESC_MD" source="VENDOR_LV3_DESC_MD"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VENDOR_LV3_DESC_LG" source="VENDOR_LV3_DESC_LG"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VENDOR_LV3_CODE" source="VENDOR_LV3_CODE"/>
+    </input>
+    <joinAttribute name="VENDOR_LV3_CODE"/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Join_1">
+  <attributes>
+    <attribute id="VENDOR_LV3_CODE" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VENDOR_LV3_CODE"/>
+      <keyMapping columnObjectName="Join_1" columnName="VENDOR_LV3_CODE"/>
+    </attribute>
+    <attribute id="LANGU" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANGU"/>
+      <keyMapping columnObjectName="Join_1" columnName="LANGU"/>
+    </attribute>
+    <attribute id="VENDOR_LV3_DESC_SH" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VENDOR_LV3_DESC_SH"/>
+      <keyMapping columnObjectName="Join_1" columnName="VENDOR_LV3_DESC_SH"/>
+    </attribute>
+    <attribute id="VENDOR_LV3_DESC_MD" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VENDOR_LV3_DESC_MD"/>
+      <keyMapping columnObjectName="Join_1" columnName="VENDOR_LV3_DESC_MD"/>
+    </attribute>
+    <attribute id="VENDOR_LV3_DESC_LG" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VENDOR_LV3_DESC_LG"/>
+      <keyMapping columnObjectName="Join_1" columnName="VENDOR_LV3_DESC_LG"/>
+    </attribute>
+    <attribute id="PRODUCT_PROP" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRODUCT_PROP"/>
+      <keyMapping columnObjectName="Join_1" columnName="PRODUCT_PROP"/>
+    </attribute>
+    <attribute id="LEAD_DEPT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEAD_DEPT"/>
+      <keyMapping columnObjectName="Join_1" columnName="LEAD_DEPT"/>
+    </attribute>
+    <attribute id="ASSESS_YN" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ASSESS_YN"/>
+      <keyMapping columnObjectName="Join_1" columnName="ASSESS_YN"/>
+    </attribute>
+    <attribute id="MAT_STD" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAT_STD"/>
+      <keyMapping columnObjectName="Join_1" columnName="MAT_STD"/>
+    </attribute>
+    <attribute id="IND_STD" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IND_STD"/>
+      <keyMapping columnObjectName="Join_1" columnName="IND_STD"/>
+    </attribute>
+    <attribute id="COST_MANAGE_YN" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COST_MANAGE_YN"/>
+      <keyMapping columnObjectName="Join_1" columnName="COST_MANAGE_YN"/>
+    </attribute>
+    <attribute id="EXPLAIN" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXPLAIN"/>
+      <keyMapping columnObjectName="Join_1" columnName="EXPLAIN"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="92" y="112"/>
+    
+      <rectangleSize width="160"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Join_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="92" y="217"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="MTL_VENDOR_L3_ATTR" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="205.123046875"/>
+    </shape>
+    <shape modelObjectName="MTL_VENDOR_L3_TEXT" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="217.8388671875"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
