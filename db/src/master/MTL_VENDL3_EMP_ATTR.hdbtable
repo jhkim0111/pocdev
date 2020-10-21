@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_VENDL3_EMP_ATTR"(
+column table MTL_VENDL3_EMP_ATTR(
 	VENDOR_LV3_CODE nchar(20),
 	EMP_NO nchar(20),
 	primary key(VENDOR_LV3_CODE, EMP_NO)

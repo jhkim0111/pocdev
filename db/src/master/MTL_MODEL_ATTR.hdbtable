@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_MODEL_ATTR"(
+column table MTL_MODEL_ATTR(
 	MODEL nchar(20),
 	MODEL_GROUP nchar(10),
 	primary key(MODEL)

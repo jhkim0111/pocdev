@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_SITE_CD_TEXT"(
+column table MTL_SITE_CD_TEXT(
 	SITE_CD nchar(20),
 	LANGU nchar(1),
 	SITE_CD_SH nchar(20),

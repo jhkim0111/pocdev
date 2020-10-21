@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_VENDOR_L2_TEXT"(
+column table MTL_VENDOR_L2_TEXT(
 	VENDOR_LV2_CODE nchar(20),
 	LANGU nchar(1),
 	VENDOR_LV2_DESC_SH nchar(20),

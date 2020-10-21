@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_PROD_PR_TEXT"(
+column table MTL_PROD_PR_TEXT(
 	PRODUCT_PROP nchar(20),
 	LANGU nchar(1),
 	PRODUCT_PROP_DESC_SH nchar(20),

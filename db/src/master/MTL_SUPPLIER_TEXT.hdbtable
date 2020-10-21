@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_SUPPLIER_TEXT"(
+column table MTL_SUPPLIER_TEXT(
 	SUPPLIER nchar(30),
 	LANGU nchar(1),
 	SUPPLIER_SH nchar(20),

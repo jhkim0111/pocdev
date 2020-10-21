@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_PART_UTPC_ATTR"(
+column table MTL_PART_UTPC_ATTR(
 	PART_NO nchar(20),
 	SITE_CD nchar(100),
 	KURST nchar(4),

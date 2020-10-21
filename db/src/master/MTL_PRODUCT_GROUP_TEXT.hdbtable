@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_PRODUCT_GROUP_TEXT"(
+column table MTL_PRODUCT_GROUP_TEXT(
 	PRODUCT_GROUP nchar(20),
 	LANGU nchar(1),
 	PRODUCT_GROUP_SH nchar(20),

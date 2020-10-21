@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_PART_NO_TEXT"(
+column table MTL_PART_NO_TEXT(
 	PART_NO nchar(20),
 	LANGU nchar(1),
 	PART_NO_SH nchar(20),

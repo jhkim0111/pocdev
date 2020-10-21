@@ -1,4 +1,4 @@
-column table "pocdev.db.src.master::MTL_VENDOR_L3_ATTR"(
+column table MTL_VENDOR_L3_ATTR(
 	VENDOR_LV3_CODE nchar(20),
 	PRODUCT_PROP nchar(20),
 	LEAD_DEPT nchar(20),
